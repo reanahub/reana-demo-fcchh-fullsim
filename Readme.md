@@ -33,10 +33,10 @@ python script `plot_single_particle_resolutions.py`:
 src="docs/SinglePartRes_single_particle_resolutions_nevents05000_pt_res_div_binned.png"
 alt="finalResolutions" width="60%">
 
-The pink curve corresponds to the one in figure 7.12.
-While the Riemann Fit cannot correctly estimate the resolutions for low momentum
-tracks, whose errors are dominated by scattering, the agreement of the high
-momentum tracks with the analytical methods is good.
+The pink curve corresponds to the one in figure 7.12. While the Riemann Fit
+cannot correctly estimate the resolutions for low momentum tracks, whose errors
+are dominated by scattering, the agreement of the high momentum tracks with the
+analytical methods is good.
 
 ## How to run the example on REANA cloud
 
@@ -44,8 +44,8 @@ momentum tracks with the analytical methods is good.
 analysis platform that permits to run structured computational workflows on
 remote compute clouds.
 
-1. First, set up ``reana-client`` that will be used to submit the
-analysis to REANA cloud:
+1. First, set up `reana-client` that will be used to submit the analysis to
+   REANA cloud:
 
    ```console
    $ # on lxplus.cern.ch, you can use a provided environment:
@@ -58,15 +58,15 @@ analysis to REANA cloud:
    ```
 
 2. Second, configure the client to connect the wanted REANA instance where the
-analysis will run, using the access token that was provided to you by the REANA
-instance administrators:
+   analysis will run, using the access token that was provided to you by the
+   REANA instance administrators:
 
    ```console
    $ export REANA_SERVER_URL=http://reana.cern.ch/
    $ export REANA_ACCESS_TOKEN=XXXXXXX
    ```
 
-3. Third, you can now use ``reana-client`` to create new workflow, upload input
+3. Third, you can now use `reana-client` to create new workflow, upload input
    code, start the execution, check its status, logs, produced output files and
    download the plots:
 
