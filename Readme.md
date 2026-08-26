@@ -57,13 +57,12 @@ remote compute clouds.
    $ pip install reana-client  # FIXME: needs a new release on PyPI
    ```
 
-2. Second, configure the client to connect the wanted REANA instance where the
-   analysis will run, using the access token that was provided to you by the
-   REANA instance administrators:
+2. Second, configure the client to connect to the wanted REANA instance and log
+   in:
 
    ```console
    $ export REANA_SERVER_URL=http://reana.cern.ch/
-   $ export REANA_ACCESS_TOKEN=XXXXXXX
+   $ reana-client login
    ```
 
 3. Third, you can now use `reana-client` to create new workflow, upload input
