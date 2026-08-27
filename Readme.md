@@ -61,7 +61,7 @@ remote compute clouds.
    in:
 
    ```console
-   $ export REANA_SERVER_URL=http://reana.cern.ch/
+   $ export REANA_SERVER_URL=https://reana.cern.ch/
    $ reana-client login
    ```
 
